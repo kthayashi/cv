@@ -5,7 +5,17 @@ format:
     theme:
     - lumen
     - custom.scss
+execute: 
+  echo: false
+  output: asis
 ---
+
+```{r}
+library(qcvutils)
+library(yaml)
+
+d <- read_yaml("data.yaml")
+```
 
 :::{style="text-align:center;"}
 Ph.D Candidate    
@@ -16,24 +26,7 @@ Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [link here]()
 
 ## EDUCATION
 
-:::::: columns
-:::{.column .left}
-**Ph.D. in Ecology and Evolutionary Biology**   
-University of California, Los Angeles   
-Advisor: Dr. Nathan Kraft
-:::
-:::{.column .right}
-2018 - Present
-:::
-::::::
-
-:::::: columns
-:::{.column .left}
-**B.S. in Biology**   
-Brown University    
-Advisors: Dr. Dov Sax, Dr. Brian Enquist    
-:::
-:::{.column .right}
-2014 - 2018
-:::
-::::::
+```{r}
+education <- d$education
+qcv_insert(education)
+```
