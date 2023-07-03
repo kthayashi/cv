@@ -10,14 +10,3 @@ https://quarto.org/docs/output-formats/html-themes.html#sass-variables
 h1 {
   text-align: center;
 }
-
-.column {
-  &.left {
-    width: 80%;
-    text-align: left;
-  }
-  &.right {
-    width: 20%;
-    text-align: right;
-  }
-}
