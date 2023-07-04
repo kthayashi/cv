@@ -1,13 +1,57 @@
 education:
-- title: Ph.D. in Ecology and Evolutionary Biology
-  start: 2018
-  end: Present
-  details:
-  - University of California, Los Angeles
-  - "Advisor: Dr. Nathan Kraft"
-- title: B.S. in Biology
-  start: 2014
-  end: 2018
-  details:
-  - Brown University
-  - "Advisors: Dr. Dov Sax, Dr. Brian Enquist"
+  - title: Ph.D. in Ecology and Evolutionary Biology
+    start: 2018
+    end: Present
+    details:
+      - University of California, Los Angeles
+      - "Advisor: Dr. Nathan Kraft"
+  - title: B.S. in Biology
+    start: 2014
+    end: 2018
+    details:
+      - Brown University
+      - "Advisors: Dr. Dov Sax, Dr. Brian Enquist"
+grants:
+  - title: Departmental Conference Grant
+    start: 2023
+    details: University of California, Los Angeles
+    notes: "$1,500"
+  - title: Departmental Research Grant
+    start: 2022
+    details: University of California, Los Angeles
+    notes: "$650"
+  - title: Mildred E. Mathias Graduate Student Research Grant
+    start: 2020
+    end: 2021
+    details: University of California Natural Reserve System
+    notes: "$2,000"
+  - title: Departmental Research Grant
+    start: 2020
+    details: University of California, Los Angeles
+    notes: "$500"
+  - title: Departmental Research Grant
+    start: 2019
+    details: University of California, Los Angeles
+    notes: "$2,000"
+fellowships:
+  - title: Halde Quarter Fellowship
+    start: 2022
+    details: University of California, Los Angeles
+  - title: Summer Mentored Research Fellowship
+    start: 2021
+    details: University of California, Los Angeles
+  - title: Vavra Quarter Fellowship
+    start: 2021
+    details: University of California, Los Angeles
+  - title: Vavra Fellowship
+    start: 2018-2022
+    details: University of California, Los Angeles
+  - title: Palevsky Fellowship
+    start: 2018
+    details: University of California, Los Angeles
+  - title: Barclay Scholarship
+    start: 2017
+    details: Rocky Mountain Biological Laboratory
+  - title: BrownConnect LINK Award
+    start: 2016
+    details: Brown University
