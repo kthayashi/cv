@@ -30,3 +30,19 @@ Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [link here]()
 education <- d$education
 qcv_insert(education)
 ```
+
+## FUNDING
+
+### Grants
+
+```{r}
+grants <- d$grants
+qcv_insert(grants)
+```
+
+### Fellowships & Scholarships
+
+```{r}
+fellowships <- d$fellowships
+qcv_insert(fellowships)
+```
