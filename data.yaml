@@ -15,24 +15,24 @@ grants:
   - title: Departmental Conference Grant
     start: 2023
     details: University of California, Los Angeles
-    notes: "$1,500"
+    notes: "$1,500 to attend Ecological Society of America conference"
   - title: Departmental Research Grant
     start: 2022
     details: University of California, Los Angeles
-    notes: "$650"
+    notes: "$650 for dissertation research"
   - title: Mildred E. Mathias Graduate Student Research Grant
     start: 2020
     end: 2021
     details: University of California Natural Reserve System
-    notes: "$2,000"
+    notes: '$2,000 for field work at UC Santa Barbara Sedgwick Reserve: "Quantifying the effect of competitive interactions on the landscape-scale distributions of annual plant species in a California grassland"'
   - title: Departmental Research Grant
     start: 2020
     details: University of California, Los Angeles
-    notes: "$500"
+    notes: "$500 for dissertation research"
   - title: Departmental Research Grant
     start: 2019
     details: University of California, Los Angeles
-    notes: "$2,000"
+    notes: "$2,000 for dissertation research"
 fellowships:
   - title: Halde Quarter Fellowship
     start: 2022
@@ -49,6 +49,7 @@ fellowships:
   - title: Palevsky Fellowship
     start: 2018
     details: University of California, Los Angeles
+    notes: Awarded to one incoming student in recognition of an outstanding record and promise of scholarly achievement
   - title: Barclay Scholarship
     start: 2017
     details: Rocky Mountain Biological Laboratory
