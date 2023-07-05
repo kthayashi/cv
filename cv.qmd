@@ -53,3 +53,16 @@ qcv_insert(fellowships)
 honors <- d$honors
 qcv_insert(honors)
 ```
+
+## PUBLICATIONS
+
+### Journal Articles
+
+:::{.small}
+\* indicates equal contribution
+:::
+
+```{r}
+articles <- d$publications$articles
+qcv_insert_pubs(articles)
+```

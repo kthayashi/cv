@@ -70,3 +70,31 @@ honors:
   - title: Honors in the Biological Sciences
     start: 2018
     details: Brown University
+publications:
+  articles:
+    - title: "EcoEvoApps: Interactive apps for theoretical models in ecology and evolutionary biology"
+      authors: 
+        - McGuire, RM\*
+        - "**Hayashi, KT**\\*"
+        - Yan, X\*
+        - Caritá Vaz, M
+        - Martínez-Blancas, A
+        - Sullivan, LL
+        - Vazquez-Morales, S
+        - Kandlikar, GS
+      year: 2022
+      publication: Ecology and Evolution
+      volume: 12
+      pages: e9556
+      doi: 10.1002/ece3.9556
+    - title: Explaining the ocean’s richest biodiversity hotspot and global patterns of fish diversity
+      authors:
+        - Miller, EC
+        - "**Hayashi, KT**"
+        - Song, D
+        - Wiens, JJ
+      year: 2018
+      publication: "Proceedings of the Royal Society B: Biological Sciences"
+      volume: 285
+      pages: 20181314
+      doi: 10.1098/rspb.2018.1314
