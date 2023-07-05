@@ -46,3 +46,10 @@ qcv_insert(grants)
 fellowships <- d$fellowships
 qcv_insert(fellowships)
 ```
+
+## HONORS & AWARDS
+
+```{r}
+honors <- d$honors
+qcv_insert(honors)
+```
