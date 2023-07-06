@@ -80,3 +80,7 @@ qcv_insert(honors)
 articles <- d$publications$articles
 qcv_insert_pubs(articles)
 ```
+
+## PRESENTATIONS
+
+
