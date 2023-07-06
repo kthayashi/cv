@@ -1,20 +1,32 @@
 ---
-title: "Kenji Hayashi - *Curriculum Vitae*"
+title: "Kenji T. Hayashi - *Curriculum Vitae*"
 format: 
   html: 
     theme:
-    - lumen
-    - custom.scss
+      - lumen
+      - custom.scss
 execute: 
   echo: false
   output: asis
 ---
 
-```{r}
+```{r setup}
 library(qcvutils)
 library(yaml)
 
 d <- read_yaml("data.yaml")
+```
+
+```{r footer}
+# Update data in footer by modifying custom.scss
+f <- "custom.scss"
+s <- readLines(f)
+dl <- intersect(grep("date-here", s), grep("content:*", s))
+s[dl] <- gsub("(?<=content: )([^;]+)", 
+              paste0('"', format(Sys.Date(), "%m/%d/%Y"), '"'), 
+              s[dl], 
+              perl = TRUE)
+writeLines(s, f)
 ```
 
 :::{style="text-align:center;"}
@@ -26,7 +38,7 @@ Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [link here]()
 
 ## EDUCATION
 
-```{r}
+```{r education}
 education <- d$education
 qcv_insert(education)
 ```
@@ -35,25 +47,26 @@ qcv_insert(education)
 
 ### Grants
 
-```{r}
+```{r grants}
 grants <- d$grants
 qcv_insert(grants)
 ```
 
 ### Fellowships & Scholarships
 
-```{r}
+```{r fellowships}
 fellowships <- d$fellowships
 qcv_insert(fellowships)
 ```
 
 ## HONORS & AWARDS
 
-```{r}
+```{r honors}
 honors <- d$honors
 qcv_insert(honors)
 ```
 
+::::::{.group}
 ## PUBLICATIONS
 
 ### Journal Articles
@@ -61,8 +74,9 @@ qcv_insert(honors)
 :::{.small}
 \* indicates equal contribution
 :::
+::::::
 
-```{r}
+```{r articles}
 articles <- d$publications$articles
 qcv_insert_pubs(articles)
 ```

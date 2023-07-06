@@ -1,16 +1,42 @@
-/*--
-See here for list of available Sass variables:
-https://quarto.org/docs/output-formats/html-themes.html#sass-variables
---*/
-
 /*-- scss:defaults --*/
+
+$footer-margin: 0.5in;
+$footer-color: gray;
 
 /*-- scss:rules --*/
 
 h1, h2, h3, h4, h5, h6 {
   color: #004080;
+  break-after: avoid;
 }
 
 h1 {
   text-align: center;
+}
+
+/* Force enclosed content to be kept together when printing */
+.group {
+  break-inside: avoid;
+  break-after: avoid;
+}
+
+/* Page setup for printing */
+/* Use date-here comment to allow R to automatically update footer date */
+@page {
+  margin: 0.5in 1in;
+  @bottom-left {
+    content: "Kenji T. Hayashi - CV";
+    margin-bottom: $footer-margin;
+    color: $footer-color;
+  }
+  @bottom-center {
+    content: counter(page);
+    margin-bottom: $footer-margin;
+    color: $footer-color;
+  }
+  @bottom-right {
+    content: "07/06/2023"; /* date-here */
+    margin-bottom: $footer-margin;
+    color: $footer-color;
+  }
 }
