@@ -4,8 +4,9 @@
 
 ### Automation
 
-A git hook can be set up to automatically print the HTML CV as a PDF whenever it
-is modified and staged. In particular, use the `pre-commit` git hook:
+A git hook can be set up to automatically print the HTML CV as a PDF whenever
+changes to the HTML file are committed. In particular, use the `pre-commit` git
+hook:
 
 ```
 #!/bin/sh

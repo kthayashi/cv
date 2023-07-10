@@ -98,3 +98,36 @@ publications:
       volume: 285
       pages: 20181314
       doi: 10.1098/rspb.2018.1314
+talks:
+  invited:
+    - title: Understanding the distributions of annual plant species in a California grassland
+      authors: "**Hayashi, KT**"
+      date: April 27, 2021
+      context: University of California, Santa Barbara, Sedgwick Reserve, Lunch & Learn Seminar (virtual)
+    - title: "Community assembly and species distributions in a California grassland: insights from population dynamics and functional traits"
+      authors: "**Hayashi, KT**"
+      date: October 7, 2020
+      context: University of Texas at Austin, Department of Integrative Biology, EcoLunch Seminar (virtual)
+  contributed:
+    - title: Spatially-variable competitive interactions shape the performance and distributions of annual plant species in a California grassland
+      authors:
+        - "**Hayashi, KT**"
+        - Kraft, NJB
+      date: August 3, 2021
+      context: Ecological Society of America (virtual)
+    - title: How does functional composition of the species pool impact plant performance locally?
+      authors:
+        - "**Hayashi, KT**"
+        - Van Dyke, MN
+        - Kandlikar, GS
+        - Kraft, NJB
+      date: August 3-6, 2020
+      context: Ecological Society of America (virtual)
+    - title: Functional traits, elevation, and the assembly of Rocky Mountain meadow communities
+      authors: "**Hayashi, KT**"
+      date: April 20, 2018
+      context: Brown University, Department of Ecology and Evolutionary Biology, Undergraduate Thesis Talks, Providence, RI, USA
+    - title: "Assessing plant community assembly along an elevational gradient: a functional trait hypervolume approach"
+      authors: "**Hayashi, KT**"
+      date: August 3, 2017
+      context: Rocky Mountain Biological Laboratory, Undergraduate Research Symposium, Gothic, CO, USA
