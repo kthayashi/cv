@@ -80,3 +80,21 @@ qcv_insert(honors)
 articles <- d$publications$articles
 qcv_insert_pubs(articles)
 ```
+
+::::::{.group}
+## PRESENTATIONS
+
+### Invited Presentations
+::::::
+
+```{r}
+talks_invited <- d$talks$invited
+qcv_insert_talks(talks_invited)
+```
+
+### Contributed Presentations
+
+```{r}
+talks_contributed <- d$talks$contributed
+qcv_insert_talks(talks_contributed)
+```
