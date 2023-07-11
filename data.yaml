@@ -131,3 +131,37 @@ talks:
       authors: "**Hayashi, KT**"
       date: August 3, 2017
       context: Rocky Mountain Biological Laboratory, Undergraduate Research Symposium, Gothic, CO, USA
+teaching:
+  TA:
+    - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
+      details: University of California, Los Angeles
+      start: 2023
+    - title: Plant Ecology (EE BIOL 161)
+      details: University of California, Los Angeles
+      years:
+        - 2019
+        - 2021 - 2022
+    - title: Plant Physiology (EE BIOL 162)
+      details: University of California, Los Angeles
+      years:
+        - 2020
+        - 2022
+    - title: Tropical Ecology (EE BIOL 151A)
+      details: University of California, Los Angeles
+      start: 2020
+    - title: Plant Diversity and Evolution (EE BIOL 103)
+      details: University of California, Los Angeles
+      start: 2020
+    - title: Community Ecology (EE BIOL 155)
+      details: University of California, Los Angeles
+      start: 2019
+    - title: Evolutionary Biology (BIOL 0480)
+      details: Brown University
+      start: 2017
+    - title: Conservation Biology (BIOL 1470)
+      details: Brown University
+      start: 2016
+    - title: Intermediate Japanese (JAPN 0040/0050)
+      details: Brown University
+      start: 2015
+      end: 2016
