@@ -166,13 +166,13 @@ teaching:
     - title: R for Reproducible Scientific Analysis (Software Carpentry)
       start: 2021
       end: 2022
-      notes: Instructor/helper at University of California, Los Angeles
+      notes: Instructor/helper, University of California, Los Angeles
     - title: Version Control with Git (Software Carpentry)
       start: 2022
-      notes: Helper at University of California, Los Angeles
+      notes: Helper, University of California, Los Angeles
     - title: The Unix Shell (Software Carpentry)
       start: 2022
-      notes: Helper at University of California, Los Angeles
+      notes: Helper, University of California, Los Angeles
   mentorship:
     UCLA:
       - title: Julie Yang
