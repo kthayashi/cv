@@ -159,3 +159,10 @@ qcv_insert_list(mentorship_other)
 teaching_certifications <- d$teaching$certifications
 qcv_insert_list(teaching_certifications)
 ```
+
+## OTHER RESEARCH EXPERIENCE
+
+```{r}
+research <- d$research
+qcv_insert(research)
+```
