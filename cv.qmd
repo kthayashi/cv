@@ -81,11 +81,11 @@ articles <- d$publications$articles
 qcv_insert_pubs(articles)
 ```
 
-::::::{.group}
+:::{.group}
 ## PRESENTATIONS
 
 ### Invited Presentations
-::::::
+:::
 
 ```{r}
 talks_invited <- d$talks$invited
@@ -99,13 +99,63 @@ talks_contributed <- d$talks$contributed
 qcv_insert_talks(talks_contributed)
 ```
 
-::::::{.group}
+:::{.group}
 ## TEACHING & MENTORING
 
 ### Teaching Assistantships
-::::::
+
+#### University of California, Los Angeles
+:::
 
 ```{r}
-TA <- d$teaching$TA
-qcv_insert(TA)
+TA_UCLA <- d$teaching$TA$UCLA
+qcv_insert_list(TA_UCLA)
+```
+
+#### Brown University
+
+```{r}
+TA_Brown <- d$teaching$TA$Brown
+qcv_insert_list(TA_Brown)
+```
+
+### Guest Lectures
+
+```{r}
+guest_lectures <- d$teaching$guest_lectures
+qcv_insert_list(guest_lectures)
+```
+
+### Workshops
+
+```{r}
+workshops <- d$teaching$workshops
+qcv_insert_list(workshops)
+```
+
+:::{.group}
+### Mentorship
+
+#### Undergraduate Students
+
+##### University of California, Los Angeles
+:::
+
+```{r}
+mentorship_UCLA <- d$teaching$mentorship$UCLA
+qcv_insert_list(mentorship_UCLA)
+```
+
+#### Other
+
+```{r}
+mentorship_other <- d$teaching$mentorship$other
+qcv_insert_list(mentorship_other)
+```
+
+### Teaching Certifications
+
+```{r}
+teaching_certifications <- d$teaching$certifications
+qcv_insert_list(teaching_certifications)
 ```
