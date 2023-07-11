@@ -49,7 +49,7 @@ fellowships:
   - title: Palevsky Fellowship
     start: 2018
     details: University of California, Los Angeles
-    notes: Awarded to one incoming student in recognition of an outstanding record and promise of scholarly achievement
+    notes: Awarded to one incoming student in recognition of an outstanding record
   - title: Barclay Scholarship
     start: 2017
     details: Rocky Mountain Biological Laboratory
@@ -199,3 +199,41 @@ teaching:
       start: 2022
     - title: Associate, Center for the Integration of Research, Teaching, and Learning at UCLA
       start: 2021
+research:
+  - title: Undergraduate Honors Thesis
+    start: 2017
+    end: 2018
+    details: Brown University
+    notes: >
+      Conducted an independent research project using functional traits
+      to study community assembly of subalpine plant communities in the
+      Rocky Mountains
+  - title: Research Assistant
+    start: 2017
+    details: Enquist Lab, Rocky Mountain Biological Laboratory
+    notes: >
+      Assisted with field work on functional turnover of subalpine plant
+      communities along an elevational gradient in the Rocky Mountains
+  - title: Undergraduate Researcher
+    start: 2016
+    end: 2017
+    details: Sax Lab, Brown University
+    notes: >
+      Contributed to a meta-analysis of plant invasions in grasslands
+  - title: Undergraduate Researcher
+    start: 2016
+    details: Wiens Lab, University of Arizona
+    notes:
+     - (1) Contributed to data collection and analysis of marine fish biogeography
+     - (2) Compiled data on the biogeography of squamate limb reduction from the primary literature
+  - title: Research Assistant
+    start: 2015
+    end: 2016
+    details: Sax Lab, Brown University
+    notes: >
+      Compiled data on plant species distributions from herbaria records
+  - title: Research Assistant
+    start: 2015
+    details: Matter Lab, University of Cincinnati
+    notes: >
+      Assisted with lab experiments and field work on metapopulation dynamics
