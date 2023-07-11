@@ -34,6 +34,9 @@ grants:
     details: University of California, Los Angeles
     notes: "$2,000 for dissertation research"
 fellowships:
+  - title: Vavra Fellowship
+    start: 2018-2022
+    details: University of California, Los Angeles
   - title: Halde Quarter Fellowship
     start: 2022
     details: University of California, Los Angeles
@@ -42,9 +45,6 @@ fellowships:
     details: University of California, Los Angeles
   - title: Vavra Quarter Fellowship
     start: 2021
-    details: University of California, Los Angeles
-  - title: Vavra Fellowship
-    start: 2018-2022
     details: University of California, Los Angeles
   - title: Palevsky Fellowship
     start: 2018
@@ -133,35 +133,69 @@ talks:
       context: Rocky Mountain Biological Laboratory, Undergraduate Research Symposium, Gothic, CO, USA
 teaching:
   TA:
-    - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
-      details: University of California, Los Angeles
-      start: 2023
-    - title: Plant Ecology (EE BIOL 161)
-      details: University of California, Los Angeles
-      years:
-        - 2019
-        - 2021 - 2022
-    - title: Plant Physiology (EE BIOL 162)
-      details: University of California, Los Angeles
-      years:
-        - 2020
-        - 2022
-    - title: Tropical Ecology (EE BIOL 151A)
-      details: University of California, Los Angeles
+    UCLA:
+      - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
+        start: 2023
+      - title: Plant Ecology (EE BIOL 161)
+        years:
+          - 2019
+          - 2021 - 2022
+      - title: Plant Physiology (EE BIOL 162)
+        years:
+          - 2020
+          - 2022
+      - title: Tropical Ecology (EE BIOL 151A)
+        start: 2020
+      - title: Plant Diversity and Evolution (EE BIOL 103)
+        start: 2020
+      - title: Community Ecology (EE BIOL 155)
+        start: 2019
+    Brown:
+      - title: Evolutionary Biology (BIOL 0480)
+        start: 2017
+      - title: Conservation Biology (BIOL 1470)
+        start: 2016
+      - title: Intermediate Japanese (JAPN 0040/0050)
+        start: 2015
+        end: 2016
+  guest_lectures:
+    - title: Plant diversity in ecological communities
       start: 2020
-    - title: Plant Diversity and Evolution (EE BIOL 103)
-      details: University of California, Los Angeles
-      start: 2020
-    - title: Community Ecology (EE BIOL 155)
-      details: University of California, Los Angeles
-      start: 2019
-    - title: Evolutionary Biology (BIOL 0480)
-      details: Brown University
-      start: 2017
-    - title: Conservation Biology (BIOL 1470)
-      details: Brown University
-      start: 2016
-    - title: Intermediate Japanese (JAPN 0040/0050)
-      details: Brown University
-      start: 2015
-      end: 2016
+      notes: Plant Diversity and Evolution (EE BIOL 103), University of California, Los Angeles
+  workshops:
+    - title: R for Reproducible Scientific Analysis (Software Carpentry)
+      start: 2021
+      end: 2022
+      notes: Instructor/helper at University of California, Los Angeles
+    - title: Version Control with Git (Software Carpentry)
+      start: 2022
+      notes: Helper at University of California, Los Angeles
+    - title: The Unix Shell (Software Carpentry)
+      start: 2022
+      notes: Helper at University of California, Los Angeles
+  mentorship:
+    UCLA:
+      - title: Julie Yang
+        start: 2021
+        end: 2023
+        notes: Awarded the 2022 Departmental Park S. Nobel Prize in Plant Biology
+      - title: Fidel Negrete
+        start: 2022
+        end: 2023
+      - title: Soline Grimbert
+        start: 2022
+      - title: Jinsuh Jung-Aum
+        start: 2021
+        end: 2022
+      - title: Timothy Foster
+        start: 2020
+        end: 2021
+    other:
+      - title: Biology Peer Advisor, Brown University
+        start: 2017
+        end: 2018
+  certifications:
+    - title: Instructor, The Carpentries
+      start: 2022
+    - title: Associate, Center for the Integration of Research, Teaching, and Learning at UCLA
+      start: 2021
