@@ -98,3 +98,14 @@ qcv_insert_talks(talks_invited)
 talks_contributed <- d$talks$contributed
 qcv_insert_talks(talks_contributed)
 ```
+
+::::::{.group}
+## TEACHING & MENTORING
+
+### Teaching Assistantships
+::::::
+
+```{r}
+TA <- d$teaching$TA
+qcv_insert(TA)
+```
