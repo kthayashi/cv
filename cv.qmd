@@ -166,3 +166,35 @@ qcv_insert_list(teaching_certifications)
 research <- d$research
 qcv_insert(research)
 ```
+
+:::{.group}
+## PUBLIC & PROFESSIONAL SERVICE
+
+### Outreach
+:::
+
+```{r}
+outreach <- d$service$outreach
+qcv_insert_list(outreach)
+```
+
+### Departmental Service
+
+```{r}
+dept_service <- d$service$dept
+qcv_insert_list(dept_service)
+```
+
+### Peer Review
+
+```{r}
+peer_review <- d$service$peer_review
+qcv_insert_list(peer_review)
+```
+
+### Professional Associations
+
+```{r}
+prof_associations <- d$service$associations
+qcv_insert_list(prof_associations)
+```
