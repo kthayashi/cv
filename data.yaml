@@ -237,3 +237,24 @@ research:
     details: Matter Lab, University of Cincinnati
     notes: >
       Assisted with lab experiments and field work on metapopulation dynamics
+service:
+  outreach:
+    - title: Invited use case post for Ocean Biogeographic Information System
+      start: 2020
+  dept:
+    - title: Co-Organizer, "Hacky Hours" (departmental co-working space)
+      start: 2019
+      end: 2023
+  peer_review:
+    - title: The American Naturalist
+    - title: Functional Ecology
+    - title: Plant Ecology
+  associations:
+    - title: Ecological Society of America
+      start: 2019
+      end: Present
+    - title: Sigma Xi
+      start: 2018
+      end: 2020
+    - title: International Biogeography Society
+      start: 2017
