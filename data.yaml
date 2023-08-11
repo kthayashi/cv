@@ -180,20 +180,25 @@ teaching:
       start: 2022
       notes: Helper, University of California, Los Angeles
   mentorship:
-    UCLA:
+    undergrads:
       - title: Julie Yang
+        details: University of California, Los Angeles
         start: 2021
         end: 2023
         notes: Awarded the 2022 Departmental Park S. Nobel Prize in Plant Biology
       - title: Fidel Negrete
+        details: University of California, Los Angeles
         start: 2022
         end: 2023
       - title: Soline Grimbert
+        details: University of California, Los Angeles
         start: 2022
       - title: Jinsuh Jung-Aum
+        details: University of California, Los Angeles
         start: 2021
         end: 2022
       - title: Timothy Foster
+        details: University of California, Los Angeles
         start: 2020
         end: 2021
     other:
