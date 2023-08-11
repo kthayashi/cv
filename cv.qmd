@@ -11,7 +11,7 @@ execute:
 ---
 
 ```{r setup}
-library(qcvutils)
+library(qmdcv)
 library(yaml)
 
 d <- read_yaml("data.yaml")
@@ -40,7 +40,7 @@ Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [link here]()
 
 ```{r education}
 education <- d$education
-qcv_insert(education)
+insert(education)
 ```
 
 ## FUNDING
@@ -49,21 +49,21 @@ qcv_insert(education)
 
 ```{r grants}
 grants <- d$grants
-qcv_insert(grants)
+insert(grants)
 ```
 
 ### Fellowships & Scholarships
 
 ```{r fellowships}
 fellowships <- d$fellowships
-qcv_insert(fellowships)
+insert(fellowships)
 ```
 
 ## HONORS & AWARDS
 
 ```{r honors}
 honors <- d$honors
-qcv_insert(honors)
+insert(honors)
 ```
 
 ::::::{.group}
@@ -78,7 +78,7 @@ qcv_insert(honors)
 
 ```{r articles}
 articles <- d$publications$articles
-qcv_insert_pubs(articles)
+insert_pubs(articles)
 ```
 
 :::{.group}
@@ -89,14 +89,14 @@ qcv_insert_pubs(articles)
 
 ```{r}
 talks_invited <- d$talks$invited
-qcv_insert_talks(talks_invited)
+insert_talks(talks_invited)
 ```
 
 ### Contributed Presentations
 
 ```{r}
 talks_contributed <- d$talks$contributed
-qcv_insert_talks(talks_contributed)
+insert_talks(talks_contributed)
 ```
 
 :::{.group}
@@ -109,28 +109,28 @@ qcv_insert_talks(talks_contributed)
 
 ```{r}
 TA_UCLA <- d$teaching$TA$UCLA
-qcv_insert_list(TA_UCLA)
+insert_list(TA_UCLA)
 ```
 
 #### Brown University
 
 ```{r}
 TA_Brown <- d$teaching$TA$Brown
-qcv_insert_list(TA_Brown)
+insert_list(TA_Brown)
 ```
 
 ### Guest Lectures
 
 ```{r}
 guest_lectures <- d$teaching$guest_lectures
-qcv_insert_list(guest_lectures)
+insert_list(guest_lectures)
 ```
 
 ### Workshops
 
 ```{r}
 workshops <- d$teaching$workshops
-qcv_insert_list(workshops)
+insert_list(workshops)
 ```
 
 :::{.group}
@@ -140,7 +140,7 @@ qcv_insert_list(workshops)
 
 ```{r}
 mentorship_undergrads <- d$teaching$mentorship$undergrads
-qcv_insert_list(mentorship_undergrads)
+insert_list(mentorship_undergrads)
 ```
 :::
 
@@ -148,21 +148,21 @@ qcv_insert_list(mentorship_undergrads)
 
 ```{r}
 mentorship_other <- d$teaching$mentorship$other
-qcv_insert_list(mentorship_other)
+insert_list(mentorship_other)
 ```
 
 ### Teaching Certifications
 
 ```{r}
 teaching_certifications <- d$teaching$certifications
-qcv_insert_list(teaching_certifications)
+insert_list(teaching_certifications)
 ```
 
 ## OTHER RESEARCH EXPERIENCE
 
 ```{r}
 research <- d$research
-qcv_insert(research)
+insert(research)
 ```
 
 :::{.group}
@@ -173,26 +173,26 @@ qcv_insert(research)
 
 ```{r}
 outreach <- d$service$outreach
-qcv_insert_list(outreach)
+insert_list(outreach)
 ```
 
 ### Departmental Service
 
 ```{r}
 dept_service <- d$service$dept
-qcv_insert_list(dept_service)
+insert_list(dept_service)
 ```
 
 ### Peer Review
 
 ```{r}
 peer_review <- d$service$peer_review
-qcv_insert_list(peer_review)
+insert_list(peer_review)
 ```
 
 ### Professional Associations
 
 ```{r}
 prof_associations <- d$service$associations
-qcv_insert_list(prof_associations)
+insert_list(prof_associations)
 ```
