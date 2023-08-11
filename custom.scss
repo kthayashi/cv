@@ -14,9 +14,13 @@ h1 {
   text-align: center;
 }
 
+/* Force content of div to be kept together when printing */
+div {
+  break-inside: avoid;
+}
+
 /* Force enclosed content to be kept together when printing */
 .group {
-  break-inside: avoid;
   break-after: avoid;
 }
 
