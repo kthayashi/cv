@@ -23,19 +23,22 @@ h1 {
 /* Page setup for printing */
 /* Use date-here comment to allow R to automatically update footer date */
 @page {
-  margin: 0.5in 1in;
+  margin: 0.5in 1in 1in 1in;
   @bottom-left {
     content: "Kenji T. Hayashi - CV";
+    margin-top: $footer-margin;
     margin-bottom: $footer-margin;
     color: $footer-color;
   }
   @bottom-center {
     content: counter(page);
+    margin-top: $footer-margin;
     margin-bottom: $footer-margin;
     color: $footer-color;
   }
   @bottom-right {
     content: "08/11/2023"; /* date-here */
+    margin-top: $footer-margin;
     margin-bottom: $footer-margin;
     color: $footer-color;
   }

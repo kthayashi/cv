@@ -139,12 +139,12 @@ qcv_insert_list(workshops)
 #### Undergraduate Students
 
 ##### University of California, Los Angeles
-:::
 
 ```{r}
 mentorship_UCLA <- d$teaching$mentorship$UCLA
 qcv_insert_list(mentorship_UCLA)
 ```
+:::
 
 #### Other
 
