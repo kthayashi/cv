@@ -1,5 +1,6 @@
 ---
-title: "Kenji T. Hayashi - *Curriculum Vitae*"
+title: "Kenji T. Hayashi"
+subtitle: "*Curriculum Vitae*"
 format: 
   html: 
     theme:
@@ -33,7 +34,7 @@ writeLines(s, f)
 Ph.D Candidate    
 Department of Ecology and Evolutionary Biology    
 University of California, Los Angeles   
-Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [link here]()
+Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu)
 :::
 
 ## EDUCATION
