@@ -40,3 +40,16 @@ chmod +x <path-to-hook-script>
 ```
 
 where `<path-to-hook-script>` might typically be `.git/hooks/pre-commit`.
+
+## License
+
+CV content (provided in `data.yaml`, `cv.qmd`, `cv.html`, and `Kenji-Hayashi-CV.pdf`) is licensed under a [CC BY 4.0 License](https://github.com/kthayashi/cv/blob/main/LICENSE). All original code are licensed under the [MIT License](https://github.com/kthayashi/cv/blob/main/LICENSE-CODE).
+
+In using Quarto to render a QMD document as an HTML document, code from external libraries are bundled in `cv_files/libs/`. Briefly, these libraries include:
+
+- [Bootstrap 5](https://github.com/twbs/bootstrap) - [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE)
+- [clipboard.js](https://github.com/zenorocha/clipboard.js) - [MIT](https://github.com/zenorocha/clipboard.js/blob/master/LICENSE)
+- [AnchorJS](https://github.com/bryanbraun/anchorjs) - [MIT](https://github.com/bryanbraun/anchorjs/blob/main/LICENSE)
+- Popper (now [Floating UI](https://github.com/floating-ui/floating-ui)) - [MIT](https://github.com/floating-ui/floating-ui/blob/master/LICENSE)
+- [Tippy.js](https://github.com/atomiks/tippyjs) - [MIT](https://github.com/atomiks/tippyjs/blob/master/LICENSE)
+- [Quarto CLI](https://github.com/quarto-dev/quarto-cli) - [GNU GPL v2](https://github.com/quarto-dev/quarto-cli/blob/main/COPYRIGHT)
