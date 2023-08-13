@@ -1,12 +1,16 @@
-# Kenji Hayashi - Curriculum Vitae
+# Kenji Hayashi - *Curriculum Vitae*
+
+This repo is for building/updating my CV. A brief overview of my workflow is provided below.
 
 ## Setup
 
+### Overview
+
+My CV is built using my [`qmdcv`](https://github.com/kthayashi/qmdcv) R package. This package allows me to provide the content of my CV as structured data (`data.yaml`), insert those data into a QMD document (`cv.qmd`), and render the CV as an HTML document (`cv.html`) using [Quarto](https://quarto.org/). Custom styling is provided in `custom.scss`, including page break/printing specifications for use with the [Paged.js](https://pagedjs.org/) library.
+
 ### Automation
 
-A git hook can be set up to automatically print the HTML CV as a PDF whenever
-changes to the HTML file are committed. In particular, use the `pre-commit` git
-hook:
+I've set up a pre-commit [git hook](https://git-scm.com/docs/githooks) in my local repo to automatically print the HTML document as a PDF document, using the [Paged.js](https://pagedjs.org/) library, whenever changes to the HTML document are committed:
 
 ```
 #!/bin/sh
