@@ -33,19 +33,17 @@ then
 fi
 ```
 
-The git hook may need to made executable:
+The git hook may need to be made executable:
 
 ```
-chmod +x <path-to-hook-script>
+chmod +x .git/hooks/pre-commit
 ```
-
-where `<path-to-hook-script>` might typically be `.git/hooks/pre-commit`.
 
 ## License
 
-CV content (provided in `data.yaml`, `cv.qmd`, `cv.html`, and `Kenji-Hayashi-CV.pdf`) is licensed under a [CC BY 4.0 License](https://github.com/kthayashi/cv/blob/main/LICENSE). All original code are licensed under the [MIT License](https://github.com/kthayashi/cv/blob/main/LICENSE-CODE).
+CV content (available in `data.yaml`, `cv.qmd`, `cv.html`, and `Kenji-Hayashi-CV.pdf`) is licensed under a [CC BY 4.0 License](https://github.com/kthayashi/cv/blob/main/LICENSE). Original code is licensed under the [MIT License](https://github.com/kthayashi/cv/blob/main/LICENSE-CODE).
 
-In using Quarto to render a QMD document as an HTML document, code from external libraries are bundled in `cv_files/libs/`. Briefly, these libraries include:
+In using Quarto to render a QMD document as an HTML document, code from external libraries is bundled in `cv_files/libs/`. Briefly, these libraries include:
 
 - [Bootstrap 5](https://github.com/twbs/bootstrap) - [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE)
 - [clipboard.js](https://github.com/zenorocha/clipboard.js) - [MIT](https://github.com/zenorocha/clipboard.js/blob/master/LICENSE)
