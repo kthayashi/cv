@@ -45,9 +45,9 @@ CV content (available in `data.yaml`, `cv.qmd`, `cv.html`, and `Kenji-Hayashi-CV
 
 In using Quarto to render a QMD document as an HTML document, code from external libraries is bundled in `cv_files/libs/`. Briefly, these libraries include:
 
-- [Bootstrap 5](https://github.com/twbs/bootstrap) - [MIT](https://github.com/twbs/bootstrap/blob/main/LICENSE)
-- [clipboard.js](https://github.com/zenorocha/clipboard.js) - [MIT](https://github.com/zenorocha/clipboard.js/blob/master/LICENSE)
-- [AnchorJS](https://github.com/bryanbraun/anchorjs) - [MIT](https://github.com/bryanbraun/anchorjs/blob/main/LICENSE)
-- Popper (now [Floating UI](https://github.com/floating-ui/floating-ui)) - [MIT](https://github.com/floating-ui/floating-ui/blob/master/LICENSE)
-- [Tippy.js](https://github.com/atomiks/tippyjs) - [MIT](https://github.com/atomiks/tippyjs/blob/master/LICENSE)
+- [Bootstrap 5](https://github.com/twbs/bootstrap) - [MIT License](https://github.com/twbs/bootstrap/blob/main/LICENSE)
+- [clipboard.js](https://github.com/zenorocha/clipboard.js) - [MIT License](https://github.com/zenorocha/clipboard.js/blob/master/LICENSE)
+- [AnchorJS](https://github.com/bryanbraun/anchorjs) - [MIT License](https://github.com/bryanbraun/anchorjs/blob/main/LICENSE)
+- Popper (now [Floating UI](https://github.com/floating-ui/floating-ui)) - [MIT License](https://github.com/floating-ui/floating-ui/blob/master/LICENSE)
+- [Tippy.js](https://github.com/atomiks/tippyjs) - [MIT License](https://github.com/atomiks/tippyjs/blob/master/LICENSE)
 - [Quarto CLI](https://github.com/quarto-dev/quarto-cli) - [GNU GPL v2](https://github.com/quarto-dev/quarto-cli/blob/main/COPYRIGHT)
