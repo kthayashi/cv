@@ -41,7 +41,7 @@ chmod +x .git/hooks/pre-commit
 
 ## License
 
-CV content (available in `data.yaml`, `cv.qmd`, `cv.html`, and `Kenji-Hayashi-CV.pdf`) is licensed under a [CC BY 4.0 License](https://github.com/kthayashi/cv/blob/main/LICENSE). Original code is licensed under the [MIT License](https://github.com/kthayashi/cv/blob/main/LICENSE-CODE).
+Non-code CV content (available in `data.yaml`, `cv.qmd`, `cv.html`, and `Kenji-Hayashi-CV.pdf`) is licensed under a [CC BY 4.0 License](https://github.com/kthayashi/cv/blob/main/LICENSE). Original code is licensed under the [MIT License](https://github.com/kthayashi/cv/blob/main/LICENSE-CODE).
 
 In using Quarto to render a QMD document as an HTML document, code from external libraries is bundled in `cv_files/libs/`. Briefly, these libraries include:
 
