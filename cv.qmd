@@ -34,7 +34,7 @@ writeLines(s, f)
 Ph.D Candidate    
 Department of Ecology and Evolutionary Biology    
 University of California, Los Angeles   
-Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu)
+Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [kthayashi.github.io](https://kthayashi.github.io)
 :::
 
 ## EDUCATION
