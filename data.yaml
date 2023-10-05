@@ -60,7 +60,7 @@ honors:
   - title: Departmental Graduate Teaching Award
     start: 2023
     details: University of California, Los Angeles
-    notes: For Teaching Assistant roles in EE BIOL 161 and EE BIOL 167
+    notes: For Teaching Assistant roles in EE BIOL 161 (Plant Ecology) and EE BIOL 167 (Natural History Collections)
   - title: Honorable Mention, NSF Graduate Research Fellowship
     start: 2022
     details: National Science Foundation
@@ -146,12 +146,12 @@ talks:
 teaching:
   TA:
     UCLA:
-      - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
-        start: 2023
       - title: Plant Ecology (EE BIOL 161)
         years:
           - 2019
-          - 2021 - 2022
+          - 2021 - 2023
+      - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
+        start: 2023
       - title: Plant Physiology (EE BIOL 162)
         years:
           - 2020
