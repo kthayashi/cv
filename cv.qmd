@@ -127,14 +127,15 @@ guest_lectures <- d$teaching$guest_lectures
 insert_list(guest_lectures)
 ```
 
-:::{.group}
+:::{.break}
+:::
+
 ### Workshops
 
 ```{r}
 workshops <- d$teaching$workshops
 insert_list(workshops)
 ```
-:::
 
 :::{.group}
 ### Mentorship

@@ -34,6 +34,11 @@ div {
   break-after: avoid;
 }
 
+/* Force page break */
+.break {
+  break-after: always;
+}
+
 /* Page setup for printing */
 /* Use date-here comment to allow R to automatically update footer date */
 @page {
