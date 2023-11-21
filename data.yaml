@@ -57,6 +57,9 @@ fellowships:
     start: 2016
     details: Brown University
 honors:
+  - title: Winner, ESIIL Environmental MosAIc Hackathon 
+    start: 2023
+    notes: 'For the group project "Biodiversity and ecosystem function: predicting resistance to wildfire from spectral diversity" proposed during the 2023 Environmental Data Science Innovation & Inclusion Lab hackathon'
   - title: Departmental Graduate Teaching Award
     start: 2023
     details: University of California, Los Angeles
