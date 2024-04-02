@@ -4,6 +4,7 @@ education:
     end: Present
     details:
       - University of California, Los Angeles
+      - 'Dissertation: "Consequences of competitive interactions in spatially variable environments for plant species coexistence and distributions"'
       - "Advisor: Dr. Nathan Kraft"
   - title: B.S. in Biology
     start: 2014
@@ -59,7 +60,7 @@ fellowships:
 honors:
   - title: Winner, ESIIL Environmental MosAIc Hackathon 
     start: 2023
-    notes: 'For the group project "Biodiversity and ecosystem function: predicting resistance to wildfire from spectral diversity" in the 2023 Environmental Data Science Innovation & Inclusion Lab hackathon'
+    notes: 'For group project "Biodiversity and ecosystem function: predicting resistance to wildfire from spectral diversity" in the 2023 Environmental Data Science Innovation & Inclusion Lab hackathon'
   - title: Departmental Graduate Teaching Award
     start: 2023
     details: University of California, Los Angeles
@@ -225,38 +226,38 @@ research:
     end: 2018
     details: Brown University
     notes: >
-      Conducted an independent research project using functional traits
-      to study community assembly of subalpine plant communities in the
-      Rocky Mountains
+      Honors thesis: "Functional traits, elevation, and the assembly of Rocky
+      Mountain meadow communities"
   - title: Research Assistant
     start: 2017
     details: Enquist Lab, Rocky Mountain Biological Laboratory
     notes: >
-      Assisted with field work on functional turnover of subalpine plant
-      communities along an elevational gradient in the Rocky Mountains
+      Assisted with collecting, cleaning, and analyzing data on plant community
+      composition and carbon flux in the Colorado Rocky Mountains
   - title: Undergraduate Researcher
     start: 2016
     end: 2017
     details: Sax Lab, Brown University
     notes: >
-      Contributed to a meta-analysis of plant invasions in grasslands
+      Contributed to collecting and analyzing data on invasive plants and
+      productivity in grasslands
   - title: Undergraduate Researcher
     start: 2016
     details: Wiens Lab, University of Arizona
     notes:
-     - (1) Contributed to data collection and analysis of marine fish biogeography
-     - (2) Compiled data on the biogeography of squamate limb reduction from the primary literature
+     - (1) Assisted with collecting and analyzing data on marine fish biogeography
+     - (2) Synthesized literature on biogeography of limb morphology in lizards
   - title: Research Assistant
     start: 2015
     end: 2016
     details: Sax Lab, Brown University
     notes: >
-      Compiled data on plant species distributions from herbaria records
+      Assisted with collecting plant occurrence data from herbaria records
   - title: Research Assistant
     start: 2015
     details: Matter Lab, University of Cincinnati
     notes: >
-      Assisted with lab experiments and field work on metapopulation dynamics
+      Assisted with fieldwork and lab experiments on metapopulation dynamics
 service:
   outreach:
     - title: Invited use case post for Ocean Biogeographic Information System
