@@ -1,0 +1,15 @@
+project:
+  type: default
+  pre-render: prerender.R
+  post-render: postrender.R
+
+format:
+  html:
+    theme:
+      - lumen
+      - custom.scss
+    embed-resources: true
+
+execute:
+  echo: false
+  output: asis

@@ -1,14 +1,6 @@
 ---
 title: "Kenji T. Hayashi"
 subtitle: "*Curriculum Vitae*"
-format: 
-  html: 
-    theme:
-      - lumen
-      - custom.scss
-execute: 
-  echo: false
-  output: asis
 ---
 
 ```{r setup}
@@ -16,18 +8,6 @@ library(qmdcv)
 library(yaml)
 
 d <- read_yaml("data.yaml")
-```
-
-```{r footer}
-# Update data in footer by modifying custom.scss
-f <- "custom.scss"
-s <- readLines(f)
-dl <- intersect(grep("date-here", s), grep("content:*", s))
-s[dl] <- gsub("(?<=content: )([^;]+)", 
-              paste0('"', format(Sys.Date(), "%m/%d/%Y"), '"'), 
-              s[dl], 
-              perl = TRUE)
-writeLines(s, f)
 ```
 
 :::{style="text-align:center;"}
