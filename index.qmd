@@ -3,11 +3,11 @@ title: "Kenji T. Hayashi"
 subtitle: "*Curriculum Vitae*"
 ---
 
-```{r setup}
+```{r}
+#| label: setup
+
 library(qmdcv)
 library(yaml)
-
-d <- read_yaml("data.yaml")
 ```
 
 :::{style="text-align:center;"}
@@ -19,8 +19,10 @@ Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [kthayashi.github.
 
 ## EDUCATION
 
-```{r education}
-education <- d$education
+```{r}
+#| label: education
+
+education <- read_yaml("content/education.yml")
 insert(education)
 ```
 
@@ -28,155 +30,183 @@ insert(education)
 
 ### Grants
 
-```{r grants}
-grants <- d$grants
+```{r}
+#| label: grants
+
+grants <- read_yaml("content/grants.yml")
 insert(grants)
 ```
 
 ### Fellowships & Scholarships
 
-```{r fellowships}
-fellowships <- d$fellowships
+```{r}
+#| label: fellowships
+
+fellowships <- read_yaml("content/fellowships.yml")
 insert(fellowships)
 ```
 
 ## HONORS & AWARDS
 
-```{r honors}
-honors <- d$honors
+```{r}
+#| label: honors
+
+honors <- read_yaml("content/honors.yml")
 insert(honors)
 ```
 
-::::::{.group}
 ## PUBLICATIONS
 
 ### Journal Articles
 
-:::{.small}
-\* indicates equal contribution
-:::
-::::::
-
-```{r articles}
-articles <- d$publications$articles
-insert_pubs(articles)
-```
-
-:::{.group}
-## PRESENTATIONS
-
-### Invited Presentations
-:::
+[\* indicates equal contribution]{.small}
 
 ```{r}
-talks_invited <- d$talks$invited
-insert_talks(talks_invited)
+#| label: publications
+
+publications <- read_yaml("content/publications.yml")
+insert_pubs(publications)
+```
+
+## PRESENTATIONS
+
+```{r}
+#| label: talks
+
+talks <- read_yaml("content/talks.yml")
+```
+
+### Invited Presentations
+
+```{r}
+#| label: invited-talks
+
+insert_talks(talks$invited)
 ```
 
 ### Contributed Presentations
 
 ```{r}
-talks_contributed <- d$talks$contributed
-insert_talks(talks_contributed)
+#| label: contributed-talks
+
+insert_talks(talks$contributed)
 ```
 
-:::{.group}
 ## TEACHING & MENTORING
+
+```{r}
+#| label: teaching
+
+teaching <- read_yaml("content/teaching.yml")
+```
 
 ### Teaching Assistantships
 
 #### University of California, Los Angeles
-:::
 
 ```{r}
-TA_UCLA <- d$teaching$TA$UCLA
-insert_list(TA_UCLA)
+#| label: TA-UCLA
+
+insert_list(teaching$TA$UCLA)
 ```
 
 #### Brown University
 
 ```{r}
-TA_Brown <- d$teaching$TA$Brown
-insert_list(TA_Brown)
+#| label: TA-Brown
+
+insert_list(teaching$TA$Brown)
 ```
 
 ### Guest Lectures
 
 ```{r}
-guest_lectures <- d$teaching$guest_lectures
-insert_list(guest_lectures)
+#| label: guest-lectures
+
+insert_list(teaching$guest_lectures)
 ```
 
-:::{.break}
-:::
+[]{.break}
 
 ### Workshops
 
 ```{r}
-workshops <- d$teaching$workshops
-insert_list(workshops)
+#| label: workshops
+
+insert_list(teaching$workshops)
 ```
 
-:::{.group}
 ### Mentorship
 
 #### Undergraduate Students
 
 ```{r}
-mentorship_undergrads <- d$teaching$mentorship$undergrads
-insert_list(mentorship_undergrads)
+#| label: mentorship-undergrads
+
+insert_list(teaching$mentorship$undergrads)
 ```
-:::
 
 #### Other
 
 ```{r}
-mentorship_other <- d$teaching$mentorship$other
-insert_list(mentorship_other)
+#| label: mentorship-other
+
+insert_list(teaching$mentorship$other)
 ```
 
 ### Teaching Certifications
 
 ```{r}
-teaching_certifications <- d$teaching$certifications
-insert_list(teaching_certifications)
+#| label: teaching-certifications
+
+insert_list(teaching$certifications)
 ```
 
 ## OTHER RESEARCH EXPERIENCE
 
 ```{r}
-research <- d$research
+#| label: research
+
+research <- read_yaml("content/research.yml")
 insert(research)
 ```
 
-:::{.group}
 ## PUBLIC & PROFESSIONAL SERVICE
 
+```{r}
+#| label: service
+
+service <- read_yaml("content/service.yml")
+```
+
 ### Outreach
-:::
 
 ```{r}
-outreach <- d$service$outreach
-insert_list(outreach)
+#| label: outreach
+
+insert_list(service$outreach)
 ```
 
 ### Departmental Service
 
 ```{r}
-dept_service <- d$service$dept
-insert_list(dept_service)
+#| label: dept-service
+
+insert_list(service$dept)
 ```
 
 ### Peer Review
 
 ```{r}
-peer_review <- d$service$peer_review
-insert_list(peer_review)
+#| label: peer-review
+
+insert_list(service$peer_review)
 ```
 
 ### Professional Associations
 
 ```{r}
-prof_associations <- d$service$associations
-insert_list(prof_associations)
+#| label: professional-associations
+
+insert_list(service$associations)
 ```

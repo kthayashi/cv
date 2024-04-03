@@ -1,0 +1,72 @@
+TA:
+  UCLA:
+    - title: Plant Ecology (EE BIOL 161)
+      years:
+        - 2019
+        - 2021 - 2023
+    - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
+      start: 2023
+    - title: Plant Physiology (EE BIOL 162)
+      years:
+        - 2020
+        - 2022
+    - title: Tropical Ecology (EE BIOL 151A)
+      start: 2020
+    - title: Plant Diversity and Evolution (EE BIOL 103)
+      start: 2020
+    - title: Community Ecology (EE BIOL 155)
+      start: 2019
+  Brown:
+    - title: Evolutionary Biology (BIOL 0480)
+      start: 2017
+    - title: Conservation Biology (BIOL 1470)
+      start: 2016
+    - title: Intermediate Japanese (JAPN 0040/0050)
+      start: 2015
+      end: 2016
+guest_lectures:
+  - title: Plant diversity in ecological communities
+    start: 2020
+    notes: Plant Diversity and Evolution (EE BIOL 103), University of California, Los Angeles
+workshops:
+  - title: R for Reproducible Scientific Analysis (Software Carpentry)
+    start: 2021
+    end: 2022
+    notes: Instructor/helper, University of California, Los Angeles
+  - title: Version Control with Git (Software Carpentry)
+    start: 2022
+    notes: Helper, University of California, Los Angeles
+  - title: The Unix Shell (Software Carpentry)
+    start: 2022
+    notes: Helper, University of California, Los Angeles
+mentorship:
+  undergrads:
+    - title: Julie Yang
+      details: University of California, Los Angeles
+      start: 2021
+      end: 2023
+      notes: Awarded the 2022 Departmental Park S. Nobel Prize in Plant Biology
+    - title: Fidel Negrete
+      details: University of California, Los Angeles
+      start: 2022
+      end: 2023
+    - title: Soline Grimbert
+      details: University of California, Los Angeles
+      start: 2022
+    - title: Jinsuh Jung-Aum
+      details: University of California, Los Angeles
+      start: 2021
+      end: 2022
+    - title: Timothy Foster
+      details: University of California, Los Angeles
+      start: 2020
+      end: 2021
+  other:
+    - title: Biology Peer Advisor, Brown University
+      start: 2017
+      end: 2018
+certifications:
+  - title: Instructor, The Carpentries
+    start: 2022
+  - title: Associate, Center for the Integration of Research, Teaching, and Learning at UCLA
+    start: 2021
