@@ -4,6 +4,6 @@ This repo is for building my CV using [Quarto](https://quarto.org/) and my [`qmd
 
 ## License
 
-Original code (including `*.R`, `*.sh`, `.scss`, `*.qmd`) is licensed under the [MIT License](https://github.com/kthayashi/cv/blob/main/LICENSE-CODE).
+Original code (including `*.R`, `*.sh`, `*.scss`, `*.qmd`) is licensed under the [MIT License](https://github.com/kthayashi/cv/blob/main/LICENSE-CODE).
 
 Non-code content (including `*.pdf`) is licensed under a [CC BY 4.0 License](https://github.com/kthayashi/cv/blob/main/LICENSE).
