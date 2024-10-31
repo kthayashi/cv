@@ -3,7 +3,7 @@ TA:
     - title: Plant Ecology (EE BIOL 161)
       years:
         - 2019
-        - 2021 - 2023
+        - 2021 - 2024
     - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
       start: 2023
     - title: Plant Physiology (EE BIOL 162)
@@ -41,15 +41,15 @@ workshops:
     notes: Helper, University of California, Los Angeles
 mentorship:
   undergrads:
+    - title: Fidel Negrete
+      details: University of California, Los Angeles
+      start: 2022
+      end: 2023
     - title: Julie Yang
       details: University of California, Los Angeles
       start: 2021
       end: 2023
       notes: Awarded the 2022 Departmental Park S. Nobel Prize in Plant Biology
-    - title: Fidel Negrete
-      details: University of California, Los Angeles
-      start: 2022
-      end: 2023
     - title: Soline Grimbert
       details: University of California, Los Angeles
       start: 2022

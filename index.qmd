@@ -59,13 +59,13 @@ insert(honors)
 
 [\* indicates equal contribution]{.small}
 
-### In Prep.
+### Preprints
 
 ```{r}
-#| label: publications-in-prep
+#| label: preprints
 
-publications_in_prep <- read_yaml("content/publications-in-prep.yml")
-insert_pubs(publications_in_prep)
+preprints <- read_yaml("content/preprints.yml")
+insert_pubs(preprints)
 ```
 
 ### Journal Articles
