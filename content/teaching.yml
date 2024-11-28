@@ -32,7 +32,7 @@ workshops:
   - title: R for Reproducible Scientific Analysis (Software Carpentry)
     start: 2021
     end: 2022
-    notes: Instructor/helper, University of California, Los Angeles
+    notes: Instructor and helper, University of California, Los Angeles
   - title: Version Control with Git (Software Carpentry)
     start: 2022
     notes: Helper, University of California, Los Angeles
