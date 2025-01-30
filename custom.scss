@@ -15,6 +15,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  border-bottom: 0.1px solid #d8d8d8;
+}
+
 h4 {
   font-size: 1rem;
 }
@@ -56,7 +60,7 @@ div {
     color: $footer-color;
   }
   @bottom-right {
-    content: "11/27/2024"; /* date */ /* DO NOT EDIT MANUALLY */
+    content: "01/29/2025"; /* date */ /* DO NOT EDIT MANUALLY */
     margin-top: $footer-margin;
     margin-bottom: $footer-margin;
     color: $footer-color;
