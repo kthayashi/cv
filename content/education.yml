@@ -1,10 +1,14 @@
 - title: Ph.D. in Biology
   start: 2018
   end: 2025
-  details:
-    - University of California, Los Angeles
-    - 'Dissertation: "Causes and consequences of competition in spatially variable environments for plant coexistence and distributions: a study with California annual plants"'
-    - "Advisor: Dr. Nathan Kraft"
+  details: University of California, Los Angeles
+  notes:
+    - >-
+      Dissertation: Causes and consequences of competition in spatially variable
+      environments for plant coexistence and distributions: a study with
+      California annual plants
+    - >-
+      Advisor: Dr. Nathan Kraft
 - title: B.S. in Biology
   start: 2014
   end: 2018

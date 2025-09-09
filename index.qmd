@@ -11,11 +11,20 @@ library(yaml)
 ```
 
 :::{style="text-align:center;"}
-Ph.D. Candidate    
-Department of Ecology and Evolutionary Biology    
-University of California, Los Angeles   
-Email: [kthayashi@ucla.edu](mailto:kthayashi@ucla.edu) | Web: [kthayashi.github.io](https://kthayashi.github.io)
+Postdoctoral Associate  
+Department of BioSciences, Rice University  
+Email: [kenji.hayashi@rice.edu](mailto:kenji.hayashi@rice.edu) |
+Web: [kthayashi.github.io](https://kthayashi.github.io)
 :::
+
+## POSITIONS
+
+```{r}
+#| label: positions
+
+positions <- read_yaml("content/positions.yml")
+insert(positions)
+```
 
 ## EDUCATION
 
@@ -59,46 +68,35 @@ insert(honors)
 
 [\* indicates equal contribution]{.small}
 
-### Preprints
-
-```{r}
-#| label: preprints
-
-preprints <- read_yaml("content/preprints.yml")
-insert_pubs(preprints)
-```
-
-### Journal Articles
-
 ```{r}
 #| label: publications
 
 publications <- read_yaml("content/publications.yml")
-insert_pubs(publications)
+insert_publications(publications)
 ```
 
 ## PRESENTATIONS
 
 ```{r}
-#| label: talks
+#| label: presentations
 
-talks <- read_yaml("content/talks.yml")
+presentations <- read_yaml("content/presentations.yml")
 ```
 
 ### Invited Presentations
 
 ```{r}
-#| label: invited-talks
+#| label: invited-presentations
 
-insert_talks(talks$invited)
+insert_presentations(presentations$invited)
 ```
 
 ### Contributed Presentations
 
 ```{r}
-#| label: contributed-talks
+#| label: contributed-presentations
 
-insert_talks(talks$contributed)
+insert_presentations(presentations$contributed)
 ```
 
 ## TEACHING & MENTORING
@@ -161,10 +159,10 @@ insert_list(teaching$mentorship$undergrads)
 insert_list(teaching$mentorship$other)
 ```
 
-### Teaching Certifications
+### Certifications
 
 ```{r}
-#| label: teaching-certifications
+#| label: certifications
 
 insert_list(teaching$certifications)
 ```
@@ -172,10 +170,10 @@ insert_list(teaching$certifications)
 ## OTHER RESEARCH EXPERIENCE
 
 ```{r}
-#| label: research
+#| label: other
 
-research <- read_yaml("content/research.yml")
-insert(research)
+other <- read_yaml("content/other.yml")
+insert(other)
 ```
 
 ## PUBLIC & PROFESSIONAL SERVICE

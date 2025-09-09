@@ -3,15 +3,11 @@ TA:
     - title: Genetics, Evolution, and Ecology (LIFESCI 7B)
       start: 2025
     - title: Plant Ecology (EE BIOL 161)
-      years:
-        - 2019
-        - 2021 - 2024
+      years: [2019, 2021--2024]
     - title: Natural History Collections in the Biological Sciences (EE BIOL 167)
       start: 2023
     - title: Plant Physiology (EE BIOL 162)
-      years:
-        - 2020
-        - 2022
+      years: [2020, 2022]
     - title: Tropical Ecology (EE BIOL 151A)
       start: 2020
     - title: Plant Diversity and Evolution (EE BIOL 103)
@@ -69,6 +65,8 @@ mentorship:
       end: 2018
 certifications:
   - title: Instructor, The Carpentries
+    start: 2022
+  - title: Participant, Entering Mentoring Training Program at UCLA
     start: 2022
   - title: Associate, Center for the Integration of Research, Teaching, and Learning at UCLA
     start: 2021

@@ -1,5 +1,7 @@
 outreach:
-  - title: Invited use case post for Ocean Biogeographic Information System
+  - title: >-
+      Invited use case [post](https://obis.org/2018/10/18/evolution) for the
+      Ocean Biogeographic Information System
     start: 2020
 dept:
   - title: Co-Organizer, "Hacky Hours" (departmental co-working space)
@@ -8,6 +10,7 @@ dept:
 peer_review:
   - title: The American Naturalist
   - title: Functional Ecology
+  - title: Journal of Ecology
   - title: Plant Ecology
 associations:
   - title: Ecological Society of America
